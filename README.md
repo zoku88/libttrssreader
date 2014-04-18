@@ -19,4 +19,8 @@ This will make a shared library named libsession.so and a small test program nam
 Test run instructions
 ---------------------
 
-For a simple test, run ./CurlTest after buiding.  It will prompt you for a username, password command (like 'echo password' or a 'gpg2 -pq password.file') and a URL for the TT-RSS installation.
+For a simple test, run 
+```
+./CurlTest 
+```
+after buiding.  It will prompt you for a username, password command (like 'echo password' or a 'gpg2 -pq password.file') and a URL for the TT-RSS installation.
