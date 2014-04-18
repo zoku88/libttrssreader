@@ -22,10 +22,10 @@
 *.app
 
 # CMake ignores
-MakeCache.txt
+CMakeCache.txt
 CMakeFiles
 Makefile
 cmake_install.cmake
 install_manifest.txt
 
-build/*
+build/
