@@ -15,6 +15,5 @@ include_directories(${PROJECT_SOURCE_DIR}/session/login
 
 add_subdirectory(session)
 
-
 target_link_libraries(CurlTest ttrsssession  ${CURL_LIBRARIES}
 		${JSON_LIBRARIES})
